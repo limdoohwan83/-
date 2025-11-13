@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>세상을 변화시킨 인물들</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="top-bar">
+    <h1><a href="#" id="home-link">세상을 변화시킨 인물들</a></h1>
+    <div id="search-container">
+      <input type="text" id="search" placeholder="이름을 입력하세요">
+    </div>
+  </div>
+
+  <main id="content">
+    <div id="results"></div>
+    <div id="pagination"></div>
+  </main>
+
+
+  <script>
+    let people = []; // JSON 데이터 담기는 변수
+    let filteredPeople = []; // 검색 결과 저장
+    let currentPage = 1;
+    const itemsPerPage = 9;
+
+    // JSON 파일 불러오기
+    fetch('people.json')
+    .then(response => response.json())
+    .then(data => {
+      people = data;
+      filteredPeople = people;
+      renderPage(1);
+    })
+    .catch(error => console.error('데이터 로드 실패', error));
+
+    const resultsDiv = document.getElementById('results');
+    const searchInput = document.getElementById('search');
+    const homeLink = document.getElementById('home-link');
+
+    function renderCards() {
+      resultsDiv.innerHTML = '';
+      const startIndex = (currentPage - 1) * itemsPerPage;
+      const pageItems = filteredPeople.slice(startIndex, startIndex + itemsPerPage);
+
+      pageItems.forEach(person => {
+        const card = document.createElement('div');
+        card.className = 'card';
+        card.innerHTML = `
+        <a href="detail.html?id=${person.id}"> 
+          <img src="${person.image_url}" alt="${person.name} 사진">
+          <div class="card-content">
+            <h2>${person.name}</h2>
+            <div class="info-row"><span class="label">프로필</span><span class="value">${person.profile}</span></div>
+            <div class="info-row"><span class="label">업적</span><span class="value">${person.achievements}</span></div>
+          </div>
+        </a>`;
+        resultsDiv.appendChild(card);
+      });
+    }
+
+    function renderPagination() {
+       const totalPages = Math.ceil(filteredPeople.length / itemsPerPage) || 1;
+       const paginationDiv = document.getElementById('pagination');
+       paginationDiv.innerHTML = '';
+ 
+      const createButton = (label, page, disabled = false, isActive = false) => {
+        const button = document.createElement('button');
+        button.textContent = label;
+        if (isActive) {
+          button.classList.add('active');
+          button.disabled = true;
+        } else {
+          button.disabled = disabled;
+          button.addEventListener('click', () => renderPage(page));
+        }
+        paginationDiv.appendChild(button);
+      };
+
+      createButton('<', currentPage - 1, currentPage === 1);
+
+      const maxButtons = 5;
+      let startPage = Math.max(1, currentPage - Math.floor(maxButtons / 2));
+      let endPage = startPage + maxButtons - 1;
+
+      if (endPage > totalPages) {
+        endPage = totalPages;
+        startPage = Math.max(1, endPage - maxButtons + 1);
+      }
+
+      for (let page = startPage; page <= endPage; page++) {
+        createButton(String(page), page, false, page === currentPage);
+      }
+
+      if (endPage < totalPages) {
+        const ellipsis = document.createElement('span');
+        ellipsis.textContent = '...';
+        ellipsis.className = 'ellipsis';
+        paginationDiv.appendChild(ellipsis);
+        createButton(String(totalPages), totalPages, false, currentPage === totalPages);
+      }
+
+      createButton('>', currentPage + 1, currentPage === totalPages);
+    }
+
+    function renderPage(page) {
+      currentPage = page;
+      renderCards();
+      renderPagination();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    searchInput.addEventListener('input', () => {
+      const query = searchInput.value.trim();
+      filteredPeople = people.filter(person =>
+        person.name.includes(query)
+      );
+      if (!filteredPeople.length) {
+        filteredPeople = people;
+      }
+      renderPage(1);
+    });
+
+    homeLink.addEventListener('click', (event) => {
+      event.preventDefault();
+      searchInput.value = '';
+      filteredPeople = people;
+      renderPage(1);
+    });
+  </script>
+</body>
+</html>
