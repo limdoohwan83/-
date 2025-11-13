@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>인물 상세</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 600px; margin: 20px auto; padding: 10px; background: #f9f9f9; }
+    img { max-width: 100%; border-radius: 10px; }
+  </style>
+</head>
+<body>
+  <h1 id="name"></h1>
+  <div style="display:flex; gap:20px; align-items:flex-start; margin-top:15px; flex-wrap: wrap;">
+    <div style="flex:0 0 40%; min-width:220px;">
+      <img id="photo" src="" alt="" style="width:100%; max-width:320px; aspect-ratio: 3 / 4; object-fit: cover; border-radius:10px;" />
+    </div>
+    <div style="flex:1; min-width:260px;">
+      <table style="width:100%; border-collapse: collapse;">
+        <tr>
+          <th style="text-align:left; padding:8px; border-bottom:1px solid #ddd; width:25%;">프로필</th>
+          <td style="padding:8px; border-bottom:1px solid #ddd;"><span id="profile"></span></td>
+        </tr>
+        <tr>
+          <th style="text-align:left; padding:8px; border-bottom:1px solid #ddd;">업적</th>
+          <td style="padding:8px; border-bottom:1px solid #ddd;"><span id="achievements"></span></td>
+        </tr>
+        <tr>
+          <th style="text-align:left; padding:8px; border-bottom:1px solid #ddd;">나이</th>
+          <td style="padding:8px; border-bottom:1px solid #ddd;"><span id="age"></span></td>
+        </tr>
+        <tr>
+          <th style="text-align:left; padding:8px; border-bottom:1px solid #ddd;">국적</th>
+          <td style="padding:8px; border-bottom:1px solid #ddd;"><span id="nationality"></span></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div style="margin-top: 20px; text-align: center;">
+    <a href="인물검색.html" style="display: inline-block; padding: 10px 20px; border: 1px solid #4d90fe; color: #4d90fe; border-radius: 6px; text-decoration: none;">← 돌아가기</a>
+  </div>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const id = params.get('id');
+  
+    fetch('people.json')
+      .then(response => response.json())
+      .then(people => {
+        const person = people.find(p => p.id === id);
+        if (person) {
+          document.getElementById('name').textContent = person.name;
+          document.getElementById('photo').src = person.image_url;
+          document.getElementById('photo').alt = person.name;
+          document.getElementById('profile').textContent = person.profile;
+          document.getElementById('achievements').textContent = person.achievements;
+          document.getElementById('age').textContent = person.age || '정보 없음';
+          document.getElementById('nationality').textContent = person.nationality || '정보 없음';
+        } else {
+          document.body.innerHTML = '<p>해당 인물을 찾을 수 없습니다.</p>';
+        }
+      })
+      .catch((error) => {
+        console.error('데이터 로드 오류:', error);
+        document.body.innerHTML = '<p>데이터를 불러올 수 없습니다.</p>';
+      });
+  </script>
+  
+</body>
+</html>
