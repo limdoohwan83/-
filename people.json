@@ -6,7 +6,8 @@
         "achievements": "아이폰, 아이패드 개발 주도",
         "age": "향년 56세",
         "nationality": "미국",
-        "image_url": "image/스티븐잡스.jpg"
+        "image_url": "image/스티븐잡스.jpg",
+        "gender": "남성"
     },
     {
         "id": "2",
@@ -15,7 +16,8 @@
         "achievements": "한국 경제 부흥",
         "age": "향년 85세",
         "nationality": "대한민국",
-        "image_url": "image/정주영.jpg"
+        "image_url": "image/정주영.jpg",
+        "gender": "남성"
     },
     {
         "id": "3",
@@ -24,7 +26,8 @@
         "achievements": "삼성 글로벌화 성공",
         "age": "향년 78세",
         "nationality": "대한민국",
-        "image_url": "image/이건희.jpg"
+        "image_url": "image/이건희.jpg",
+        "gender": "남성"
     },
     {
         "id": "4",
@@ -33,7 +36,8 @@
         "achievements": "금융 슈퍼앱, 시간 절약 기여",
         "age": "43세 (2025년 기준)",
         "nationality": "대한민국",
-        "image_url": "image/이승건.jpg"
+        "image_url": "image/이승건.jpg",
+        "gender": "남성"
     },
     {
         "id": "5",
@@ -42,7 +46,8 @@
         "achievements": "전기차 및 우주 탐사 혁신",
         "age": "54세 (2025년 기준)",
         "nationality": "미국",
-        "image_url": "image/일론머스트.jpg"
+        "image_url": "image/일론머스트.jpg",
+        "gender": "남성"
     },
     {
         "id": "6",
@@ -51,7 +56,8 @@
         "achievements": "소프트웨어 산업 혁신",
         "age": "69세 (2025년 기준)",
         "nationality": "미국",
-        "image_url": "image/빌게이츠.jpg"
+        "image_url": "image/빌게이츠.jpg",
+        "gender": "남성"
     },
     {
         "name": "앨런 튜링",
@@ -60,7 +66,8 @@
         "age": "향년 41세",
         "nationality": "영국",
         "image_url": "image/앨런튜링.jpg",
-        "id": "7"
+        "id": "7",
+        "gender": "남성"
     },
     {
         "name": "마리 퀴리",
@@ -69,7 +76,8 @@
         "age": "향년 66세",
         "nationality": "폴란드 제2공화국, 프랑스",
         "image_url": "image/마리퀴리.jpg",
-        "id": "8"
+        "id": "8",
+        "gender": "여성"
     },
     {
         "name": "알베르트 아인슈타인",
@@ -78,7 +86,8 @@
         "age": "향년 76세",
         "nationality": "뷔르템베르크 왕국, 무국적",
         "image_url": "image/알베르트아인슈타인.jpg",
-        "id": "9"
+        "id": "9",
+        "gender": "남성"
     },
     {
         "name": "아이작 뉴턴",
@@ -87,7 +96,8 @@
         "age": "향년 84세",
         "nationality": "잉글랜드 왕국, 그레이트브리튼 왕국",
         "image_url": "image/아이작뉴턴.jpg",
-        "id": "10"
+        "id": "10",
+        "gender": "남성"
     },
     {
         "name": "레오나르도 다 빈치",
@@ -96,7 +106,8 @@
         "age": "향년 67세",
         "nationality": "피렌체 공화국",
         "image_url": "image/레오나르도다빈치.jpg",
-        "id": "11"
+        "id": "11",
+        "gender": "남성"
     },
     {
         "name": "니콜라 테슬라",
@@ -105,7 +116,8 @@
         "age": "향년 86세",
         "nationality": "오스트리아 제국, Kingdom of Hungary",
         "image_url": "image/니콜라테슬라.jpg",
-        "id": "12"
+        "id": "12",
+        "gender": "남성"
     },
     {
         "name": "토머스 에디슨",
@@ -114,7 +126,8 @@
         "age": "향년 84세",
         "nationality": "미국",
         "image_url": "image/토머스에디슨.jpg",
-        "id": "13"
+        "id": "13",
+        "gender": "남성"
     },
     {
         "name": "찰스 다윈",
@@ -123,7 +136,8 @@
         "age": "향년 73세",
         "nationality": "그레이트브리튼 아일랜드 연합왕국",
         "image_url": "image/찰스다윈.jpg",
-        "id": "14"
+        "id": "14",
+        "gender": "남성"
     },
     {
         "name": "갈릴레오 갈릴레이",
@@ -132,7 +146,8 @@
         "age": "향년 77세",
         "nationality": "피렌체 공국, 토스카나 대공국",
         "image_url": "image/갈릴레오갈릴레이.jpg",
-        "id": "15"
+        "id": "15",
+        "gender": "남성"
     },
     {
         "name": "로절린드 프랭클린",
@@ -141,7 +156,8 @@
         "age": "향년 37세",
         "nationality": "그레이트브리튼 아일랜드 연합왕국, 영국",
         "image_url": "image/로절린드프랭클린.jpg",
-        "id": "16"
+        "id": "16",
+        "gender": "여성"
     },
     {
         "name": "에이다 러브레이스",
@@ -150,7 +166,8 @@
         "age": "향년 36세",
         "nationality": "그레이트브리튼 아일랜드 연합왕국",
         "image_url": "image/에이다러브레이스.jpg",
-        "id": "17"
+        "id": "17",
+        "gender": "여성"
     },
     {
         "name": "그레이스 호퍼",
@@ -159,7 +176,8 @@
         "age": "향년 85세",
         "nationality": "미국",
         "image_url": "image/그레이스호퍼.jpg",
-        "id": "18"
+        "id": "18",
+        "gender": "여성"
     },
     {
         "name": "팀 버너스리",
@@ -168,7 +186,8 @@
         "age": "70세 (2025년 기준)",
         "nationality": "영국",
         "image_url": "image/팀버너스리.jpg",
-        "id": "19"
+        "id": "19",
+        "gender": "남성"
     },
     {
         "name": "클로드 섀넌",
@@ -177,7 +196,8 @@
         "age": "향년 84세",
         "nationality": "미국",
         "image_url": "image/클로드섀넌.jpg",
-        "id": "20"
+        "id": "20",
+        "gender": "남성"
     },
     {
         "name": "존 폰 노이만",
@@ -186,7 +206,8 @@
         "age": "향년 53세",
         "nationality": "헝가리, 미국",
         "image_url": "image/존폰노이만.jpg",
-        "id": "21"
+        "id": "21",
+        "gender": "남성"
     },
     {
         "name": "데니스 리치",
@@ -195,7 +216,8 @@
         "age": "향년 70세",
         "nationality": "미국",
         "image_url": "image/데니스리치.jpg",
-        "id": "22"
+        "id": "22",
+        "gender": "남성"
     },
     {
         "name": "브라이언 커니핸",
@@ -204,7 +226,8 @@
         "age": "83세 (2025년 기준)",
         "nationality": "캐나다, 미국",
         "image_url": "image/브라이언커니핸.jpg",
-        "id": "23"
+        "id": "23",
+        "gender": "남성"
     },
     {
         "name": "제인 구달",
@@ -213,7 +236,8 @@
         "age": "향년 91세",
         "nationality": "영국",
         "image_url": "image/제인구달.jpg",
-        "id": "24"
+        "id": "24",
+        "gender": "여성"
     },
     {
         "name": "스티븐 호킹",
@@ -222,7 +246,8 @@
         "age": "향년 76세",
         "nationality": "영국",
         "image_url": "image/스티븐호킹.jpg",
-        "id": "25"
+        "id": "25",
+        "gender": "남성"
     },
     {
         "name": "칼 세이건",
@@ -231,7 +256,8 @@
         "age": "향년 62세",
         "nationality": "미국",
         "image_url": "image/칼세이건.jpg",
-        "id": "26"
+        "id": "26",
+        "gender": "남성"
     },
     {
         "name": "리처드 파인만",
@@ -240,7 +266,8 @@
         "age": "향년 69세",
         "nationality": "미국",
         "image_url": "image/리처드파인만.jpg",
-        "id": "27"
+        "id": "27",
+        "gender": "남성"
     },
     {
         "name": "피터 힉스",
@@ -249,7 +276,8 @@
         "age": "향년 94세",
         "nationality": "영국",
         "image_url": "image/피터힉스.jpg",
-        "id": "28"
+        "id": "28",
+        "gender": "남성"
     },
     {
         "name": "에드워드 위튼",
@@ -258,7 +286,8 @@
         "age": "74세 (2025년 기준)",
         "nationality": "미국",
         "image_url": "image/에드워드위튼.jpg",
-        "id": "29"
+        "id": "29",
+        "gender": "남성"
     },
     {
         "name": "캐서린 존슨",
@@ -267,7 +296,8 @@
         "age": "향년 101세",
         "nationality": "미국",
         "image_url": "image/캐서린존슨.jpg",
-        "id": "30"
+        "id": "30",
+        "gender": "여성"
     },
     {
         "name": "프랭클린 D. 루스벨트",
@@ -276,7 +306,8 @@
         "age": "향년 63세",
         "nationality": "미국",
         "image_url": "image/프랭클린D.루스벨트.jpg",
-        "id": "31"
+        "id": "31",
+        "gender": "남성"
     },
     {
         "name": "윈스턴 처칠",
@@ -285,7 +316,8 @@
         "age": "향년 90세",
         "nationality": "영국, 그레이트브리튼 아일랜드 연합왕국",
         "image_url": "image/윈스턴처칠.jpg",
-        "id": "32"
+        "id": "32",
+        "gender": "남성"
     },
     {
         "name": "마틴 루터 킹 주니어",
@@ -294,7 +326,8 @@
         "age": "향년 39세",
         "nationality": "미국",
         "image_url": "image/마틴루터킹주니어.jpg",
-        "id": "33"
+        "id": "33",
+        "gender": "남성"
     },
     {
         "name": "넬슨 만델라",
@@ -303,7 +336,8 @@
         "age": "향년 95세",
         "nationality": "남아프리카 공화국",
         "image_url": "image/넬슨만델라.jpg",
-        "id": "34"
+        "id": "34",
+        "gender": "남성"
     },
     {
         "name": "마하트마 간디",
@@ -312,7 +346,8 @@
         "age": "향년 78세",
         "nationality": "영국령 인도 제국, 인도 자치령",
         "image_url": "image/마하트마간디.jpg",
-        "id": "35"
+        "id": "35",
+        "gender": "남성"
     },
     {
         "name": "제14대 달라이 라마",
@@ -321,7 +356,8 @@
         "age": "90세 (2025년 기준)",
         "nationality": "티베트, 중화인민공화국",
         "image_url": "image/제14대달라이라마.jpg",
-        "id": "36"
+        "id": "36",
+        "gender": "남성"
     },
     {
         "name": "말랄라 유사프자이",
@@ -330,7 +366,8 @@
         "age": "28세 (2025년 기준)",
         "nationality": "파키스탄",
         "image_url": "image/말랄라유사프자이.jpg",
-        "id": "37"
+        "id": "37",
+        "gender": "여성"
     },
     {
         "name": "앙겔라 메르켈",
@@ -339,7 +376,8 @@
         "age": "71세 (2025년 기준)",
         "nationality": "독일",
         "image_url": "image/앙겔라메르켈.jpg",
-        "id": "38"
+        "id": "38",
+        "gender": "여성"
     },
     {
         "name": "저신다 아던",
@@ -348,7 +386,8 @@
         "age": "45세 (2025년 기준)",
         "nationality": "뉴질랜드",
         "image_url": "image/저신다아던.jpg",
-        "id": "39"
+        "id": "39",
+        "gender": "여성"
     },
     {
         "name": "크리스틴 라가르드",
@@ -357,7 +396,8 @@
         "age": "69세 (2025년 기준)",
         "nationality": "프랑스",
         "image_url": "image/크리스틴라가르드.jpg",
-        "id": "40"
+        "id": "40",
+        "gender": "여성"
     },
     {
         "name": "시진핑",
@@ -366,7 +406,8 @@
         "age": "72세 (2025년 기준)",
         "nationality": "중화인민공화국",
         "image_url": "image/시진핑.jpg",
-        "id": "41"
+        "id": "41",
+        "gender": "남성"
     },
     {
         "name": "리콴유",
@@ -375,7 +416,8 @@
         "age": "향년 91세",
         "nationality": "싱가포르",
         "image_url": "image/리콴유.jpg",
-        "id": "42"
+        "id": "42",
+        "gender": "남성"
     },
     {
         "name": "김대중",
@@ -384,7 +426,8 @@
         "age": "향년 85세",
         "nationality": "대한민국",
         "image_url": "image/김대중.jpg",
-        "id": "43"
+        "id": "43",
+        "gender": "남성"
     },
     {
         "name": "노무현",
@@ -393,7 +436,8 @@
         "age": "향년 62세",
         "nationality": "대한민국 제1공화국, 대한민국 제2공화국",
         "image_url": "image/노무현.jpg",
-        "id": "44"
+        "id": "44",
+        "gender": "남성"
     },
     {
         "name": "박정희",
@@ -402,7 +446,8 @@
         "age": "향년 61세",
         "nationality": "대한민국",
         "image_url": "image/박정희.jpg",
-        "id": "45"
+        "id": "45",
+        "gender": "남성"
     },
     {
         "name": "이순신",
@@ -411,7 +456,8 @@
         "age": "향년 53세",
         "nationality": "조선",
         "image_url": "image/이순신.jpg",
-        "id": "46"
+        "id": "46",
+        "gender": "남성"
     },
     {
         "name": "안중근",
@@ -420,7 +466,8 @@
         "age": "향년 30세",
         "nationality": "대한제국",
         "image_url": "image/안중근.jpg",
-        "id": "47"
+        "id": "47",
+        "gender": "남성"
     },
     {
         "name": "유관순",
@@ -429,7 +476,8 @@
         "age": "향년 17세",
         "nationality": "일제강점기, 한국",
         "image_url": "image/유관순.jpg",
-        "id": "48"
+        "id": "48",
+        "gender": "여성"
     },
     {
         "name": "세종",
@@ -438,7 +486,8 @@
         "age": "향년 52세",
         "nationality": "조선",
         "image_url": "image/세종.jpg",
-        "id": "49"
+        "id": "49",
+        "gender": "남성"
     },
     {
         "name": "정약용",
@@ -447,7 +496,8 @@
         "age": "정보 없음",
         "nationality": "조선",
         "image_url": "image/정약용.jpg",
-        "id": "50"
+        "id": "50",
+        "gender": "남성"
     },
     {
         "name": "워렌 버핏",
@@ -456,7 +506,8 @@
         "age": "95세 (2025년 기준)",
         "nationality": "미국",
         "image_url": "image/워렌버핏.jpg",
-        "id": "51"
+        "id": "51",
+        "gender": "남성"
     },
     {
         "name": "제프 베이조스",
@@ -465,7 +516,8 @@
         "age": "61세 (2025년 기준)",
         "nationality": "미국",
         "image_url": "image/제프베이조스.jpg",
-        "id": "52"
+        "id": "52",
+        "gender": "남성"
     },
     {
         "name": "마크 저커버그",
@@ -474,7 +526,8 @@
         "age": "41세 (2025년 기준)",
         "nationality": "미국",
         "image_url": "image/마크저커버그.jpg",
-        "id": "53"
+        "id": "53",
+        "gender": "남성"
     },
     {
         "name": "래리 페이지",
@@ -483,7 +536,8 @@
         "age": "52세 (2025년 기준)",
         "nationality": "미국",
         "image_url": "image/래리페이지.jpg",
-        "id": "54"
+        "id": "54",
+        "gender": "남성"
     },
     {
         "name": "세르게이 브린",
@@ -492,7 +546,8 @@
         "age": "52세 (2025년 기준)",
         "nationality": "소련, 미국",
         "image_url": "image/세르게이브린.jpg",
-        "id": "55"
+        "id": "55",
+        "gender": "남성"
     },
     {
         "name": "선다 피차이",
@@ -501,7 +556,8 @@
         "age": "53세 (2025년 기준)",
         "nationality": "미국, 인도",
         "image_url": "image/선다피차이.jpg",
-        "id": "56"
+        "id": "56",
+        "gender": "남성"
     },
     {
         "name": "사티아 나델라",
@@ -510,7 +566,8 @@
         "age": "58세 (2025년 기준)",
         "nationality": "인도, 미국",
         "image_url": "image/사티아나델라.jpg",
-        "id": "57"
+        "id": "57",
+        "gender": "남성"
     },
     {
         "name": "다니엘 에크",
@@ -519,7 +576,8 @@
         "age": "42세 (2025년 기준)",
         "nationality": "스웨덴",
         "image_url": "image/다니엘에크.jpg",
-        "id": "58"
+        "id": "58",
+        "gender": "남성"
     },
     {
         "name": "리드 헤이스팅스",
@@ -528,7 +586,8 @@
         "age": "65세 (2025년 기준)",
         "nationality": "미국",
         "image_url": "image/리드헤이스팅스.jpg",
-        "id": "59"
+        "id": "59",
+        "gender": "남성"
     },
     {
         "name": "브라이언 체스키",
@@ -537,7 +596,8 @@
         "age": "44세 (2025년 기준)",
         "nationality": "미국",
         "image_url": "image/브라이언체스키.jpg",
-        "id": "60"
+        "id": "60",
+        "gender": "남성"
     },
     {
         "name": "파블로 피카소",
@@ -546,7 +606,8 @@
         "age": "향년 91세",
         "nationality": "스페인, 프랑스",
         "image_url": "image/파블로피카소.jpg",
-        "id": "61"
+        "id": "61",
+        "gender": "남성"
     },
     {
         "name": "빈센트 반 고흐",
@@ -555,7 +616,8 @@
         "age": "향년 37세",
         "nationality": "네덜란드 왕국",
         "image_url": "image/빈센트반고흐.jpg",
-        "id": "62"
+        "id": "62",
+        "gender": "남성"
     },
     {
         "name": "클로드 모네",
@@ -564,7 +626,8 @@
         "age": "향년 86세",
         "nationality": "프랑스",
         "image_url": "image/클로드모네.jpg",
-        "id": "63"
+        "id": "63",
+        "gender": "남성"
     },
     {
         "name": "안토니 가우디",
@@ -573,7 +636,8 @@
         "age": "향년 73세",
         "nationality": "스페인",
         "image_url": "image/안토니가우디.jpg",
-        "id": "64"
+        "id": "64",
+        "gender": "남성"
     },
     {
         "name": "프리다 칼로",
@@ -582,7 +646,8 @@
         "age": "향년 47세",
         "nationality": "멕시코",
         "image_url": "image/프리다칼로.jpg",
-        "id": "65"
+        "id": "65",
+        "gender": "여성"
     },
     {
         "name": "앤디 워홀",
@@ -591,7 +656,8 @@
         "age": "향년 58세",
         "nationality": "미국",
         "image_url": "image/앤디워홀.jpg",
-        "id": "66"
+        "id": "66",
+        "gender": "남성"
     },
     {
         "name": "월트 디즈니",
@@ -600,7 +666,8 @@
         "age": "향년 65세",
         "nationality": "미국",
         "image_url": "image/월트디즈니.jpg",
-        "id": "67"
+        "id": "67",
+        "gender": "남성"
     },
     {
         "name": "스탠 리",
@@ -609,7 +676,8 @@
         "age": "향년 95세",
         "nationality": "미국",
         "image_url": "image/스탠리.jpg",
-        "id": "68"
+        "id": "68",
+        "gender": "남성"
     },
     {
         "name": "봉준호",
@@ -618,7 +686,8 @@
         "age": "56세 (2025년 기준)",
         "nationality": "대한민국",
         "image_url": "image/봉준호.jpg",
-        "id": "69"
+        "id": "69",
+        "gender": "남성"
     },
     {
         "name": "박찬욱",
@@ -627,7 +696,8 @@
         "age": "62세 (2025년 기준)",
         "nationality": "대한민국",
         "image_url": "image/박찬욱.jpg",
-        "id": "70"
+        "id": "70",
+        "gender": "남성"
     },
     {
         "name": "최동훈",
@@ -636,7 +706,8 @@
         "age": "정보 없음",
         "nationality": "정보 없음",
         "image_url": "image/최동훈.jpg",
-        "id": "71"
+        "id": "71",
+        "gender": "남성"
     },
     {
         "name": "김지운",
@@ -645,7 +716,8 @@
         "age": "정보 없음",
         "nationality": "정보 없음",
         "image_url": "image/김지운.jpg",
-        "id": "72"
+        "id": "72",
+        "gender": "남성"
     },
     {
         "name": "마이클 조던",
@@ -654,7 +726,8 @@
         "age": "62세 (2025년 기준)",
         "nationality": "미국",
         "image_url": "image/마이클조던.jpg",
-        "id": "73"
+        "id": "73",
+        "gender": "남성"
     },
     {
         "name": "코비 브라이언트",
@@ -663,7 +736,8 @@
         "age": "향년 41세",
         "nationality": "미국",
         "image_url": "image/코비브라이언트.jpg",
-        "id": "74"
+        "id": "74",
+        "gender": "남성"
     },
     {
         "name": "르브론 제임스",
@@ -672,7 +746,8 @@
         "age": "40세 (2025년 기준)",
         "nationality": "미국",
         "image_url": "image/르브론제임스.jpg",
-        "id": "75"
+        "id": "75",
+        "gender": "남성"
     },
     {
         "name": "우사인 볼트",
@@ -681,7 +756,8 @@
         "age": "39세 (2025년 기준)",
         "nationality": "자메이카",
         "image_url": "image/우사인볼트.jpg",
-        "id": "76"
+        "id": "76",
+        "gender": "남성"
     },
     {
         "name": "마이클 펠프스",
@@ -690,7 +766,8 @@
         "age": "40세 (2025년 기준)",
         "nationality": "미국",
         "image_url": "image/마이클펠프스.jpg",
-        "id": "77"
+        "id": "77",
+        "gender": "남성"
     },
     {
         "name": "세리나 윌리엄스",
@@ -699,7 +776,8 @@
         "age": "44세 (2025년 기준)",
         "nationality": "미국",
         "image_url": "image/세리나윌리엄스.jpg",
-        "id": "78"
+        "id": "78",
+        "gender": "여성"
     },
     {
         "name": "손흥민",
@@ -708,7 +786,8 @@
         "age": "33세 (2025년 기준)",
         "nationality": "대한민국",
         "image_url": "image/손흥민.jpg",
-        "id": "79"
+        "id": "79",
+        "gender": "남성"
     },
     {
         "name": "박지성",
@@ -717,7 +796,8 @@
         "age": "44세 (2025년 기준)",
         "nationality": "대한민국",
         "image_url": "image/박지성.jpg",
-        "id": "80"
+        "id": "80",
+        "gender": "남성"
     },
     {
         "name": "김연아",
@@ -726,7 +806,8 @@
         "age": "35세 (2025년 기준)",
         "nationality": "대한민국",
         "image_url": "image/김연아.jpg",
-        "id": "81"
+        "id": "81",
+        "gender": "여성"
     },
     {
         "name": "유재석",
@@ -735,7 +816,8 @@
         "age": "53세 (2025년 기준)",
         "nationality": "대한민국",
         "image_url": "image/유재석.jpg",
-        "id": "82"
+        "id": "82",
+        "gender": "남성"
     },
     {
         "name": "강호동",
@@ -744,7 +826,8 @@
         "age": "55세 (2025년 기준)",
         "nationality": "대한민국",
         "image_url": "image/강호동.jpg",
-        "id": "83"
+        "id": "83",
+        "gender": "남성"
     },
     {
         "name": "이효리",
@@ -753,7 +836,8 @@
         "age": "46세 (2025년 기준)",
         "nationality": "대한민국",
         "image_url": "image/이효리.jpg",
-        "id": "84"
+        "id": "84",
+        "gender": "여성"
     },
     {
         "name": "아이유",
@@ -762,7 +846,8 @@
         "age": "32세 (2025년 기준)",
         "nationality": "대한민국",
         "image_url": "image/아이유.jpg",
-        "id": "85"
+        "id": "85",
+        "gender": "여성"
     },
     {
         "name": "정국",
@@ -771,7 +856,8 @@
         "age": "정보 없음",
         "nationality": "정보 없음",
         "image_url": "image/정국.jpg",
-        "id": "86"
+        "id": "86",
+        "gender": "남성"
     },
     {
         "name": "조지 오웰",
@@ -780,7 +866,8 @@
         "age": "향년 46세",
         "nationality": "영국, 그레이트브리튼 아일랜드 연합왕국",
         "image_url": "image/조지오웰.jpg",
-        "id": "87"
+        "id": "87",
+        "gender": "남성"
     },
     {
         "name": "J. K. 롤링",
@@ -789,7 +876,8 @@
         "age": "60세 (2025년 기준)",
         "nationality": "영국",
         "image_url": "image/J.K.롤링.jpg",
-        "id": "88"
+        "id": "88",
+        "gender": "여성"
     },
     {
         "name": "가브리엘 가르시아 마르케스",
@@ -798,7 +886,8 @@
         "age": "향년 87세",
         "nationality": "콜롬비아",
         "image_url": "image/가브리엘가르시아마르케스.jpg",
-        "id": "89"
+        "id": "89",
+        "gender": "남성"
     },
     {
         "name": "무라카미 하루키",
@@ -807,7 +896,8 @@
         "age": "76세 (2025년 기준)",
         "nationality": "일본",
         "image_url": "image/무라카미하루키.jpg",
-        "id": "90"
+        "id": "90",
+        "gender": "남성"
     },
     {
         "name": "파울로 코엘료",
@@ -816,7 +906,8 @@
         "age": "78세 (2025년 기준)",
         "nationality": "브라질",
         "image_url": "image/파울로코엘료.jpg",
-        "id": "91"
+        "id": "91",
+        "gender": "남성"
     },
     {
         "name": "공자",
@@ -825,7 +916,8 @@
         "age": "정보 없음",
         "nationality": "노나라",
         "image_url": "image/공자.jpg",
-        "id": "92"
+        "id": "92",
+        "gender": "남성"
     },
     {
         "name": "노자",
@@ -834,7 +926,8 @@
         "age": "정보 없음",
         "nationality": "주나라",
         "image_url": "image/노자.jpg",
-        "id": "93"
+        "id": "93",
+        "gender": "남성"
     },
     {
         "name": "소크라테스",
@@ -843,7 +936,8 @@
         "age": "정보 없음",
         "nationality": "고대 아테네",
         "image_url": "image/소크라테스.jpg",
-        "id": "94"
+        "id": "94",
+        "gender": "남성"
     },
     {
         "name": "플라톤",
@@ -852,7 +946,8 @@
         "age": "정보 없음",
         "nationality": "고대 아테네",
         "image_url": "image/플라톤.jpg",
-        "id": "95"
+        "id": "95",
+        "gender": "남성"
     },
     {
         "name": "아리스토텔레스",
@@ -861,6 +956,7 @@
         "age": "정보 없음",
         "nationality": "정보 없음",
         "image_url": "image/아리스토텔레스.jpg",
-        "id": "96"
+        "id": "96",
+        "gender": "남성"
     }
 ]
